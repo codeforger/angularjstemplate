@@ -41,6 +41,7 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "in-publish": "^2.0.0",
     "node-sass": "^3.4.2"
   }
