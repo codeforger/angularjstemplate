@@ -1,0 +1,90 @@
+.container, .navbar-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container, .navbar-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container, .navbar-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container, .navbar-container {
+    width: 1170px;
+  }
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.not-bold {
+  font-weight: 400;
+}
+
+.valign-center {
+  display: flex;
+  align-items: center;
+}
+
+.halign-center {
+  display: flex;
+  justify-content: center;
+}
+
+.halign-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.halign-spbetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+  & > * {
+    flex: 0 1 49%;
+    @media only screen and (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

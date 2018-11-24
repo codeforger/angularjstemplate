@@ -17,10 +17,14 @@ module.exports = {
     'src/frontend/app.js',
     'src/frontend/modules/teacher/controller/teacher.js',
     'src/frontend/modules/student/controller/student.js',
+    'src/frontend/modules/home/controller/home.js',
   ],
   cssLibrary: [
     'src/frontend/bower_components/html5-boilerplate/dist/css/normalize.css',
     'src/frontend/bower_components/html5-boilerplate/dist/css/main.css'
+  ],
+  fonts: [
+    'src/frontend/fonts/*'
   ],
   gulpLoadPlugins: {
     DEBUG: false,

@@ -1,0 +1,30 @@
+.start-page {
+  background: #c9187f; /* Old browsers */
+  background: radial-gradient(ellipse at center, #c9187f 0%, #e71b8d4a 100%);
+  width: 100vw;
+  height: 100vh;
+
+  &__title {
+    font-weight: normal;
+    color: var(--color-text-contrast);
+  }
+
+  &__button {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-default-light);
+    border: 1px solid var(--color-default-light);
+    font-size: 1.5em;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+
+    &:last-child {
+      margin-left: 30px;
+    }
+
+    &:hover {
+      color: var(--color-default-light);
+    }
+  }
+}
+

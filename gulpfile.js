@@ -17,6 +17,7 @@ gulp.task('test', (done) => {
 gulp.task('build', plugins.sequence(
   'clear-all',
   'copy-html',
+  'copy-fonts',
   'copy-css',
   'css-library',
   'compile-library',

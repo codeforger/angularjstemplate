@@ -5,11 +5,12 @@
     'ngRoute',
     'myApp.teacher',
     'myApp.student',
+    'myApp.home'
   ]).
   config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
       $locationProvider.hashPrefix('!');
 
-      $routeProvider.otherwise({redirectTo: '/teacher'});
+      $routeProvider.otherwise({redirectTo: '/home'});
   }]);
-  
+
 })();
