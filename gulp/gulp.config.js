@@ -15,8 +15,8 @@ module.exports = {
   ],
   jsScripts: [
     'src/frontend/app.js',
-    'src/frontend/modules/procedural/controller/procedural.js',
-    'src/frontend/modules/procedural/service/storage.js',
+    'src/frontend/modules/teacher/controller/teacher.js',
+    'src/frontend/modules/student/controller/student.js',
   ],
   cssLibrary: [
     'src/frontend/bower_components/html5-boilerplate/dist/css/normalize.css',

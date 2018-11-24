@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   
-  const app = angular.module('myApp.procedural');
+  const app = angular.module('myApp.teacher');
   
   app.service('localStorageOperations', ['config', (config) => {
     const service = {
