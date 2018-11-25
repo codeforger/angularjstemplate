@@ -21,5 +21,6 @@
     $scope.subjectName = $routeParams.subject;
     const subject = subjectList.find(el => el.name === $scope.subjectName);
     $scope.subjectTopics = subject.topics;
+    $scope.subjectDesc = subject.description.long;
   }
 })();
