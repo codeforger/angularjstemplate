@@ -1,0 +1,13 @@
+.question-panel, .answer-panel {
+  min-height: 100vh;
+}
+
+.question-panel {
+  flex-basis: 25%;
+  background-color: var(--color-default-darker);
+  color: var(--color-default-light);
+}
+
+.answer-panel {
+  flex-basis: 75%;
+}
