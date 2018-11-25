@@ -7,6 +7,7 @@
     'myApp.student',
     'myApp.home',
     'myApp.navbar',
+    'myApp.subject',
   ]).
   config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
       $locationProvider.hashPrefix('');
