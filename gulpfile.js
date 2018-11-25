@@ -18,6 +18,7 @@ gulp.task('build', plugins.sequence(
   'clear-all',
   'copy-html',
   'copy-fonts',
+  'copy-images',
   'copy-css',
   'css-library',
   'compile-library',

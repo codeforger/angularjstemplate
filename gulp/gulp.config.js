@@ -29,6 +29,9 @@ module.exports = {
   fonts: [
     'src/frontend/fonts/*'
   ],
+  images: [
+    'src/frontend/images/*',
+  ],
   gulpLoadPlugins: {
     DEBUG: false,
     pattern: ['gulp-*', 'gulp.*', 'del', 'babel-preset-es2015', 'karma*', 'jasmine-core', 'browserify', 'watchify', 'compass*'],

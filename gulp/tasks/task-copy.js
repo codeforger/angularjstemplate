@@ -32,4 +32,9 @@ module.exports = (gulp, options, plugins) => {
       .pipe(gulp.dest('./app/public_html/fonts/'));
   });
 
+  gulp.task('copy-images', () => {
+    return gulp.src(options.images)
+      .pipe(gulp.dest('./app/public_html/images/'));
+  });
+
 };
