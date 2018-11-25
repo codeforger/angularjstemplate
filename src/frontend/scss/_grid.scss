@@ -1,4 +1,4 @@
-.container, .navbar-container {
+.container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -6,17 +6,17 @@
 }
 
 @media (min-width: 768px) {
-  .container, .navbar-container {
+  .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .container, .navbar-container {
+  .container {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .container, .navbar-container {
+  .container {
     width: 1170px;
   }
 }

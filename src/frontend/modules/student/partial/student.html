@@ -1,21 +1,5 @@
 <section class="content">
-  <header class="navbar">
-    <nav class="nav valign-center navbar-container">
-      <a class="nav__link" href="#Community">Community</a>
-      <a class="nav__link" href="#Help">Help</a>
-      <a class="nav__link" href="#Contact">Contact</a>
-      <div class="spacer"></div>
-      <span
-          class="logout"
-          data-tippy="Logout"
-          data-tippy-placeemnt="down"
-          data-tippy-size="small"
-      >
-        <i class="fas fa-power-off"></i>
-      </span>
-    </nav>
-
-  </header>
+  <div ng-include="'./modules/common/navbar/partial/navbar.html'"></div>
   <section class="user-panel container">
     <div class="block__wrapper">
       <div class="block flex-column halign-spbetween">
@@ -25,7 +9,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elit quis velit egestas dapibus.
             Aliquam dapibus feugiat ultrices. Nunc.
           </p>
-          <button class="block__button">Choose</button>
+          <a href="#!/student/subject" class="block__button">Choose</a>
         </div>
       </div>
       <div class="block flex-column halign-spbetween">
