@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  
+
   angular
     .module('myApp.student',[])
       .config(['$routeProvider', function($routeProvider) {
@@ -16,6 +16,6 @@
   ];
   
   function studentCtrl($scope){
-    $scope.hello = "student";
+    $scope.subjectList = subjectList;
   }
 })();

@@ -2,98 +2,13 @@
   <div ng-include="'./modules/common/navbar/partial/navbar.html'"></div>
   <section class="user-panel container">
     <div class="block__wrapper">
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Biology</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elit quis velit egestas dapibus.
-            Aliquam dapibus feugiat ultrices. Nunc.
-          </p>
-          <a href="#!/student/subject" class="block__button">Choose</a>
-        </div>
-      </div>
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Mathematics</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elit quis velit egestas dapibus.
-            Aliquam dapibus feugiat ultrices. Nunc.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Science</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum lorem
-            placerat aliquam placerat. Nulla finibus a justo id commodo.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
 
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Health</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum lorem
-            placerat aliquam placerat. Nulla finibus a justo id commodo.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
 
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">English</div>
+      <div ng-repeat="subject in subjectList" class="block flex-column halign-spbetween">
+        <div class="block__title valign-center halign-center">{{ subject.name }}</div>
         <div class="block__info">
           <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed quam sit amet nisi consequat blandit.
-            Duis tincidunt augue vitae.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
-
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Geography</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a purus ut nisl ultrices pulvinar.
-            Etiam consequat, leo quis consectetur.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
-
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">History</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna dolor, molestie quis ultricies
-            blandit, ornare vitae augue. Aliquam erat.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
-
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Computer Science</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis bibendum erat non consequat.
-            Praesent quam dolor, sagittis vitae porttitor.
-          </p>
-          <button class="block__button">Choose</button>
-        </div>
-      </div>
-
-      <div class="block flex-column halign-spbetween">
-        <div class="block__title valign-center halign-center">Art</div>
-        <div class="block__info">
-          <p class="block__info__desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non mauris eros.
-            In hac habitasse platea dictumst. Aliquam leo neque.
+            {{ subject.description }}
           </p>
           <button class="block__button">Choose</button>
         </div>
