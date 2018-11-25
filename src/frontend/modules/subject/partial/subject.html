@@ -1,2 +1,15 @@
 <div ng-include="'./modules/common/navbar/partial/navbar.html'"></div>
-
+<div class="content">
+  <div class="container flex-row">
+    <section class="topics-list">
+      <ol>
+        <li ng-repeat="topic in subjectTopics">{{ topic }}</li>
+      </ol>
+    </section>
+    <section class="topics-preview">
+      <img src="" alt="" class="topic__image">
+      <article class="topic__desc"></article>
+      <button class="topic__button"></button>
+    </section>
+  </div>
+</div>

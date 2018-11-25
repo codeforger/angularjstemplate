@@ -1,0 +1,30 @@
+.topics-list {
+  flex-basis: 300px;
+
+  ol {
+    margin: 0;
+    padding: 50px 0 0;
+    list-style-type: none;
+    border-right: 1px solid lightgray;
+    min-height: 100vh;
+
+    li {
+      counter-increment: step-counter;
+      margin-bottom: 5px;
+      cursor: pointer;
+      transition: margin-left .3s ease;
+
+      &:hover {
+        margin-left: 10px;
+      }
+
+      &:before {
+        content: counter(step-counter) ".";
+        margin-right: 10px;
+        color: var(--color-primary);
+        padding: 3px 8px;
+      }
+    }
+  }
+}
+

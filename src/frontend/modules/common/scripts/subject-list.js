@@ -2,7 +2,22 @@ const subjectList = [
   {
     id: 0,
     name: "Biology",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elit quis velit egestas dapibus. Aliquam dapibus feugiat ultrices. Nunc."
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elit quis velit egestas dapibus. Aliquam dapibus feugiat ultrices. Nunc.",
+    topics: [
+      'Animals',
+      'Macromolecules',
+      'Diffusion and osmosis',
+      'Homeostasis',
+      'Cell biology',
+      'Virology',
+      'Immunology',
+      'Evolution',
+      'Taxonomy',
+      'Botany',
+      'Zoology',
+      'Paleontology',
+      'Biodiversity',
+    ],
   }, {
     id: 1,
     name: "Mathematics",

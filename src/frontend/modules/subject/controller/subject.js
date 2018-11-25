@@ -18,6 +18,8 @@
   ];
 
   function subjectCtrl($scope, $routeParams){
-    console.log($routeParams.subject);
+    $scope.subjectName = $routeParams.subject;
+    const subject = subjectList.find(el => el.name === $scope.subjectName);
+    $scope.subjectTopics = subject.topics;
   }
 })();
