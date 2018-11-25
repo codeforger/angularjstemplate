@@ -5,7 +5,7 @@
     .module('myApp.course', [])
     .config(['$routeProvider', function ($routeProvider) {
       $routeProvider
-        .when('/course/:subject', {
+        .when('/course/:subject/:topic', {
           templateUrl: 'modules/course/partial/course.html',
           controller: 'courseCtrl',
         });
@@ -19,6 +19,7 @@
 
   function courseCtrl($scope, $routeParams){
     $scope.subjectName = $routeParams.subject;
+    $scope.topic = $routeParams.topic;
     const subject = subjectList.find(el => el.name === $scope.subjectName);
   }
 })();

@@ -3,14 +3,16 @@
   <div class="container flex-row">
     <section class="topics-list">
       <ol>
-        <li ng-repeat="topic in subjectTopics">{{ topic }}</li>
+        <li ng-repeat="topic in subjectTopics">
+          <a href="#/course/{{subjectName}}/{{topic}}">{{topic}}</a>
+        </li>
       </ol>
     </section>
     <section class="topics-preview">
       <div class="topic__wrapper valign-center flex-column">
         <img src="./images/{{subjectName}}.jpg" alt="{{subjectName}}" class="topic__image">
         <article class="topic__desc">{{subjectDesc}}</article>
-        <a href="#/course/{{subjectName}}" class="topic__button">Start Course</a>
+        <a href="#/course/{{subjectName}}/{{subjectTopics[0]}}" class="topic__button">Start Course</a>
       </div>
     </section>
   </div>
