@@ -19,7 +19,6 @@ module.exports = {
     'src/frontend/modules/teacher/controller/teacher.js',
     'src/frontend/modules/student/controller/student.js',
     'src/frontend/modules/home/controller/home.js',
-    'src/frontend/modules/subject/controller/subject.js',
     'src/frontend/modules/common/navbar/controller/navbar.js',
   ],
   cssLibrary: [
