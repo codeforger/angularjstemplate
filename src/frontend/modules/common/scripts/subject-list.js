@@ -29,6 +29,18 @@ const subjectList = [
       short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elit quis velit egestas dapibus. Aliquam dapibus feugiat ultrices. Nunc.",
       long: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel arcu non tellus finibus elementum. Phasellus mollis dolor aliquet vestibulum imperdiet. Donec mollis lobortis tincidunt. Etiam vehicula sapien in mattis ullamcorper. Mauris maximus lectus vitae arcu porta elementum. Aliquam vel elit et quam rhoncus posuere quis sit amet orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum."
     },
+    topics: [
+      'Algebra',
+      'Calculus and analysis',
+      'Geometry and topology',
+      'Combinatorics',
+      'Logic',
+      'Number theory',
+      'Mathematical physics',
+      'Computation',
+      'Statistics',
+      'Operations',
+    ],
   },
   {
     id: 2,

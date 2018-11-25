@@ -15,12 +15,13 @@ module.exports = {
   ],
   jsScripts: [
     'src/frontend/app.js',
+    'src/frontend/modules/common/navbar/controller/navbar.js',
     'src/frontend/modules/common/scripts/subject-list.js',
-    'src/frontend/modules/teacher/controller/teacher.js',
+    'src/frontend/modules/course/controller/course.js',
+    'src/frontend/modules/home/controller/home.js',
     'src/frontend/modules/student/controller/student.js',
     'src/frontend/modules/subject/controller/subject.js',
-    'src/frontend/modules/home/controller/home.js',
-    'src/frontend/modules/common/navbar/controller/navbar.js',
+    'src/frontend/modules/teacher/controller/teacher.js',
   ],
   cssLibrary: [
     'src/frontend/bower_components/html5-boilerplate/dist/css/normalize.css',
